@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.todo-app {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    filter: drop-shadow(1px 1px 10px #28a745 );
+    color: #ddd;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    background-color: black;
+    color: whitesmoke;
+}
+input:hover{
+    filter: drop-shadow(1px 1px 10px #28a745 );
+}
+button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: whitesmoke;
+    filter: drop-shadow(1px 1px 10px #28a745 );
+}
+
+li button {
+    background-color: #dc3545;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
